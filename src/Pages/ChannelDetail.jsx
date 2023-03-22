@@ -17,13 +17,23 @@ const ChannelDetail = () => {
     }
     fetchData();
   }, [id])
-  console.log(videos);
-  
-  
+
+
   return (
     <div className="cnl-detail">
       <div className="cnl-header"></div>
-        <div className="cnl-data"></div>
+        <div className="cnl-data">
+          <div className="cnl-thumbnail">
+             <img id ='img' src={channelData?.snippet?.thumbnails?.medium?.url} alt="no paa" width='200px' height='200px' />
+             <div>
+             <span>{channelData?.snippet?.title}</span>
+             </div>
+             <div>
+               <span>{parseInt(channelData?.statistics?.subscriberCount).toLocaleString()} Subscribers</span>
+             </div>
+            
+          </div>
+        </div>
         <div className="cnl-videos">
           <Videos videos={videos} />
         </div>

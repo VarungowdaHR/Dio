@@ -3,9 +3,34 @@
     background-color: black;
 }
 
-
 .cnl-header{
     background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
     height: 30vh;
     width: 100%;
+}
+
+.cnl-data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cnl-thumbnail{
+    text-align: center;
+    transform: translateY(-10vh);
+}
+
+#img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.cnl-videos{
+    margin-top:30px;
+}
+
+.comments{
+    margin-top: 30px;
 }
