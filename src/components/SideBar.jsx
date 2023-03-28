@@ -3,8 +3,9 @@ import "../utils/css/sideBar.css"
 
 
 
-const SideBar = ({currentItem, setcurrentItem}) => {
+const SideBar = ({currentItem, setcurrentItem, setVideos}) => {
     const handleItemBtnClick=(name)=>{
+        setVideos([]);
         setcurrentItem(name);
     }
 

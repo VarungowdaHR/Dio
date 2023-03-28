@@ -22,7 +22,6 @@ const Comments = ({id}) => {
             <div className='cmt-text'>
               <span>{parse(temp?.textDisplay)}</span>
             </div>
-             
           </div>
   )}) 
         }
