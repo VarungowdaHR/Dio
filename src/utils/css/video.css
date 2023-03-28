@@ -18,17 +18,8 @@
     max-width: 25%;
 }
 
-.comments a{
-    display: none;
-}
-
-.comments{
-    padding: 10px;
-    background-color: #212121;
-}
-
-
 .video-details{
+    width: 100%;
     margin: 50px 0;
     display: flex;
     justify-content:space-between;
@@ -45,8 +36,8 @@
 }
 
 #title{
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
 .user-profile{
@@ -62,4 +53,35 @@
 
 .cmt-text{
     margin-left: 35px;
+}
+
+
+
+.hr::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #918787;
+    display: block;
+}
+
+.hr::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #918787;
+    display: block;
+}
+
+.comments{
+    padding: 10px;
+    background-color: #212121;
+}
+.comments a{
+    display: none;
+}
+
+#view-count{
+    font-size: .8rem;
+    color: #313131;
 }

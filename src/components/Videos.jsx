@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import fetchVideos from '../utils/fetchVideos'
 import VideoCard from './VideoCard';
 
-const Videos = ({videos}) => {
-  if(videos?.length==0) return;
+const Videos = ({videos, isLoading}) => {
+  if(!videos) return;
   return(
     <div className="videos-container">
       {videos.map((item, i)=>(
