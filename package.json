@@ -1,6 +1,6 @@
 {
-  "name": "youtube",
-  "version": "0.1.0",
+  "name": "dio",
+  "version": "03.23",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",

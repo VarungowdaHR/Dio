@@ -18,7 +18,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     grid-gap: 20px;
     padding-right:5px;
 }
@@ -30,7 +30,6 @@
 
 .thumbnail-img{
     width: 100%;
-    height: 180px;
     height: auto;
 }
 
@@ -50,4 +49,38 @@
 
 .links{
     text-decoration: none;
+}
+
+@media (max-width:800px){
+    .main-feed{
+        flex-direction: column;
+    }
+    .main-feed-sidebar{
+        width: 100%;
+    }
+    .main-video-container{
+        width: 100%;
+    }
+    .videos-container{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 0 10px;
+    }
+
+}
+
+@media (max-width:400px){
+    .main-feed{
+        flex-direction: column;
+        height: auto;
+    }
+    .main-video-container{
+        width: 100%;
+        margin: 0;
+    }
+     .videos-container{
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+     
+    
 }

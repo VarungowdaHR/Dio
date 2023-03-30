@@ -6,7 +6,7 @@ import { faReact,  } from "@fortawesome/free-brands-svg-icons";
 
 export const channels=[
   { name: 'New', icon: <FontAwesomeIcon icon={faHome} /> },
-  { name: 'JS Mastery', icon: <FontAwesomeIcon icon={faCode} /> },
+  // { name: 'JS Mastery', icon: <FontAwesomeIcon icon={faCode} /> },
   { name: 'Coding', icon: <FontAwesomeIcon icon={faCode} /> },
   { name: 'ReactJS', icon: <FontAwesomeIcon icon={faReact} />, },
   { name: 'NextJS', icon: <FontAwesomeIcon icon={faN} />, },
@@ -23,3 +23,4 @@ export const channels=[
   { name: 'Gym', icon: <FontAwesomeIcon icon={faDumbbell} />, },
   { name: 'Crypto', icon: <FontAwesomeIcon icon={faMoneyBill} />, },
 ]
+

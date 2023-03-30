@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const useDate = (date) => {
         const olddate=new Date(date); 
         let curYear=olddate.getFullYear().toString();
