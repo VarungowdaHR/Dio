@@ -6,7 +6,6 @@ const useInfiniteScroll = (setpage, isLoading) => {
     const handleScroll=(entries)=>{
         const [entry]=entries;
         if(entry.isIntersecting){
-            // alert("helo")
            setpage(page=>page+1);
         }
     }

@@ -21,6 +21,7 @@ const SideBar = ({currentItem, setcurrentItem, setVideos}) => {
                     <span id='item-name'>{item.name}</span>
                 </button>
             ) )}
+            
         </div>
   )
 }
