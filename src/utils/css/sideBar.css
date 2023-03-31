@@ -48,16 +48,13 @@
 }
 
 .item-btn:hover{
-    background-color: rgb(255, 130, 130);
+    background-color: red;
 }
 
 .item-icon{
     flex: 1;
     color: #fc8787;
 }
-
-
-
 
 .item-name{
     flex: 3;
