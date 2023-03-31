@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/VarungowdaHR/Dio/static/css/main.08a1e3ee.css",
-    "main.js": "/VarungowdaHR/Dio/static/js/main.7bd707ba.js",
-    "static/js/985.e9a4aba2.chunk.js": "/VarungowdaHR/Dio/static/js/985.e9a4aba2.chunk.js",
-    "static/media/profile.jpg": "/VarungowdaHR/Dio/static/media/profile.fe0c398cba21ef21725e.jpg",
-    "static/media/logo.png": "/VarungowdaHR/Dio/static/media/logo.b3b267026670f7dc2612.png",
-    "index.html": "/VarungowdaHR/Dio/index.html",
-    "main.08a1e3ee.css.map": "/VarungowdaHR/Dio/static/css/main.08a1e3ee.css.map",
-    "main.7bd707ba.js.map": "/VarungowdaHR/Dio/static/js/main.7bd707ba.js.map",
-    "985.e9a4aba2.chunk.js.map": "/VarungowdaHR/Dio/static/js/985.e9a4aba2.chunk.js.map"
+    "main.css": "/VarungowdaHR/Dio/tree/gh-pages/static/css/main.08a1e3ee.css",
+    "main.js": "/VarungowdaHR/Dio/tree/gh-pages/static/js/main.3b14195c.js",
+    "static/js/985.e9a4aba2.chunk.js": "/VarungowdaHR/Dio/tree/gh-pages/static/js/985.e9a4aba2.chunk.js",
+    "static/media/profile.jpg": "/VarungowdaHR/Dio/tree/gh-pages/static/media/profile.fe0c398cba21ef21725e.jpg",
+    "static/media/logo.png": "/VarungowdaHR/Dio/tree/gh-pages/static/media/logo.b3b267026670f7dc2612.png",
+    "index.html": "/VarungowdaHR/Dio/tree/gh-pages/index.html",
+    "main.08a1e3ee.css.map": "/VarungowdaHR/Dio/tree/gh-pages/static/css/main.08a1e3ee.css.map",
+    "main.3b14195c.js.map": "/VarungowdaHR/Dio/tree/gh-pages/static/js/main.3b14195c.js.map",
+    "985.e9a4aba2.chunk.js.map": "/VarungowdaHR/Dio/tree/gh-pages/static/js/985.e9a4aba2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08a1e3ee.css",
-    "static/js/main.7bd707ba.js"
+    "static/js/main.3b14195c.js"
   ]
 }
