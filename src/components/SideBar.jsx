@@ -17,8 +17,8 @@ const SideBar = ({currentItem, setcurrentItem, setVideos}) => {
                 <button className='item-btn' key={index} onClick={()=> handleItemBtnClick(item.name)}
                 style={{backgroundColor:item.name===currentItem && 'red'}}
                 >
-                    <span id='item-icon'>{item.icon}</span>
-                    <span id='item-name'>{item.name}</span>
+                    <span className='item-icon'>{item.icon}</span>
+                    <span className='item-name'>{item.name}</span>
                 </button>
             ) )}
             
